@@ -1,0 +1,8 @@
+.translators{
+  display: flex;
+  flex-flow: row nowrap;
+
+}
+fieldset{
+  width:40%;
+}
