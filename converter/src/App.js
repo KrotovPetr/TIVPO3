@@ -1,6 +1,7 @@
 
 import './App.css';
 import {useState} from "react";
+import {getAnswer} from "./answer";
 function App() {
     const [value1, setValue1] = useState(null);
     const [value2, setValue2] = useState(null);
@@ -131,7 +132,7 @@ function App() {
             </form>
 
         </div>
-        <h1>Итог: {(value1/value2*(+value3))}</h1>
+        <h1>Итог: {getAnswer(value1, value2, value3)}</h1>
     </div>
   );
 }
