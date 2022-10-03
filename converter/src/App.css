@@ -1,6 +1,7 @@
 .translators{
   display: flex;
   flex-flow: row nowrap;
+  column-gap: 100px;
 
 }
 fieldset{
